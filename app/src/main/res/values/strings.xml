@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">SamsCloak</string>
+    <string name="no_applications">No job applications yet.\nShare a screenshot to get started!</string>
+    <string name="upload_job_posting">Upload Job Posting</string>
+    <string name="uploading">Uploading job posting…</string>
+    <string name="upload_success">Job posting added successfully!</string>
+    <string name="upload_failed">Upload failed. Please try again.</string>
+    <string name="login_required">Please login first</string>
+    <string name="invalid_file">Invalid file type</string>
+    <string name="loading">Loading…</string>
+    <string name="error_occurred">An error occurred</string>
+    <string name="retry">Retry</string>
+</resources>
