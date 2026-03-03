@@ -13,7 +13,9 @@ import java.util.concurrent.TimeUnit
  */
 object RetrofitClient {
     
-    private const val BASE_URL = "http://10.0.2.2:8000/" // Android emulator localhost
+    // For physical device - use your computer's IP address
+    // Make sure backend is running with: uvicorn app.main:app --host 0.0.0.0 --port 8000
+    private const val BASE_URL = "http://192.168.126.71:8000/"  // Updated to correct backend IP
     private const val TIMEOUT_SECONDS = 30L
     
     private var authToken: String? = null
